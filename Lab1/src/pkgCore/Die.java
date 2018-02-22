@@ -7,7 +7,7 @@ public class Die
 
 	public Die() 
 	{
-		this.DieValue = (int)Math.random() * 6 + 1;
+		this.DieValue = (int)(Math.random() * 6 + 1);
 	}
 
 	public int getDieValue() 
